@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/dumbbell-solid.svg" type="image/x-icon">
+    <title>Intro Bootstrap FrameWork</title>
+
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fs-2 icon" href="#"><span>F</span>A<span>.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse main-nav" id="navbarNav">
+                <ul class="navbar-nav ms-auto fs-5 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Workout">Workout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Trainers">Trainers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Diet">Diet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home">
+        <div class="container text-light position-relative h-100">
+            <div class="">
+                <div class="wow fadeIn intro-text position-absolute text-center">
+                    <h3 class="fs-2 mb-3 text-start">Feel The Power With</h3>
+                    <h1 class="text-center mb-3"><span>FIT</span>APEX</h1>
+                    <p class="text-center fw-semibold mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque ad pariatur numquam, minima maxime ipsum? Vero iusto ex reiciendis. Recusandae?</p>
+                    <a href="#" class="btn btn-outline-success btn-lg mb-3 mx-auto">JOIN NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="About">
+        <div class="container py-5">
+            <div class="special-header text-center text-white">
+                <h1 class="mb-4"><span>A</span>bout <span class="text-white under">Us</span></h1>
+                <p class="fs-6 fw-light mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias?
+                        Similique harum officiis, saepe suscipit quis repellat rem aut veniam soluta amet quas nam
+                        corrupti obcaecati distinctio, atque facilis doloribus at inventore porro sapiente ipsa ex
+                        illum! Odit, ex laboriosam ut quas non impedit enim itaque repellendus placeat cum amet esse
+                        saepe iure deleniti temporibus, in vitae. Mollitia itaque quia ut? Quae, eaque pariatur natus
+                        aut rem ipsum libero qui ea, eos cum amet delectus, porro nisi ducimus illum ipsam similique non
+                        dignissimos explicabo voluptates laboriosam. Sunt quam molestiae aspernatur ullam, illum cumque
+                        error aliquam vero, est rem accusamus repellat, ipsa fuga debitis quis mollitia quaerat.
+                        Molestias officiis porro, velit quisquam nam architecto dolore eum consectetur voluptates quo
+                        adipisci asperiores impedit. Et assumenda natus obcaecati odit minima illo facere laboriosam
+                        eligendi itaque commodi maiores culpa aliquam eaque magni sit, possimus placeat exercitationem
+                        voluptas velit iste voluptatum. Tempore beatae mollitia nostrum.</p>
+                    <a href="#" class="btn btn-outline-success text-white mb-3">More</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/About.jpg" class="wow bounceInRight w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Workout">
+        <div class="container py-5">
+            <div class="special-header text-center text-white">
+                <h1 class="mb-4"><span>W</span>ork <span class="text-white under">Out</span></h1>
+                <p class="fs-6 fw-light mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="row">
+                <script>
+                    for (i = 1; i <= 6; i++) {
+                        document.write(`
+                            <div class="col-md-4 mb-3 h-100">
+                                <div class="card bg-dark ">
+                                    <img src="images/workout${i}.jpg" class="mb-3" alt="">
+                                    <h4 class="work-h ps-3 pe-3">someone famous</h4>
+                                    <p class="text-white ps-3 pe-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, facere!</p>
+                                </div>
+                            </div>
+                            `)
+                    }
+                </script>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="Trainers">
+        <div class="container py-5">
+            <div class="special-header text-center text-white">
+                <h1 class="mb-4"><span>T</span>raine<span class="text-white under">r</span></h1>
+                <p class="fs-6 fw-light mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+
+            <div class="row">
+
+                <script>
+                    for (i = 1; i <= 4; i++) {
+                        document.write(`
+                        <div class="col-md-6 mb-3">
+                            <div class="card bg-dark">
+                                <img src="images/trainer${i}.jpg" class="mb-3 w-100" alt="">
+                                <div class="about d-flex">
+                                    <h4 class="work-h ps-3 pe-3 d-inline-block">someone famous</h4>
+                                    <ul class="ms-auto me-5 d-flex justify-content-around w-25">
+                                        <li><a href="#"></a><i
+                                                class="facebook fa-brands fa-facebook text-white border-1 border-white rounded-circle"></i>
+                                        </li>
+                                        <li><a href="#"></a><i class="twitter fa-brands fa-twitter text-white"></i></li>
+                                        <li><a href="#"></a><i class="linkedin fa-brands fa-linkedin text-white"></i></li>
+                                    </ul>
+                                </div>
+                                <p class="text-white ps-3 pe-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                                    facere!</p>
+                                <a href="#" class="btn btn-outline-success btn-md w-25 ms-3 mb-3 btn-green">Explore</a>
+                            </div>
+                        </div>        
+                        `)
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section id="Diet">
+        <div class="container py-5">
+            <div class="special-header text-center text-white">
+                <h1 class="mb-4"><span>D</span>it<span class="text-white under">e</span></h1>
+                <p class="fs-6 fw-light mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="row m-5 bg-transparent">
+                <div class="col-md-6 p-3">
+                    <img src="images/diet1.jpg" class="wow bounceInLeft img-fluid">
+                </div>
+                <div class="col-md-6 p-3 dite-text">
+                    <h3 class="text-primary diet-main ps-3">Boiled Chicken</h3>
+                    <p class="text-white fw-semibold lh-lg text-capitalize ps-3">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Accusantium harum officia modi neque repellendus accusamus nulla fugiat
+                        perspiciatis ea porro delectus sed quos incidunt numquam ipsa necessitatibus explicabo nisi
+                        sapiente, obcaecati reiciendis. Suscipit, perferendis tempora molestias blanditiis error
+                        eligendi veniam vero reprehenderit id incidunt quaerat, porro maxime possimus, eum eaque.</p>
+                </div>
+            </div>
+
+            <hr class="w-50 m-auto main-hr">
+
+            <div class="row m-5 bg-transparent">
+                <div class="col-md-6 p-3 dite-text">
+                    <h3 class="text-primary diet-main ps-3 orange-main">Bread Salads</h3>
+                    <p class="text-white fw-semibold lh-lg text-capitalize ps-3">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Accusantium harum officia modi neque repellendus accusamus nulla fugiat
+                        perspiciatis ea porro delectus sed quos incidunt numquam ipsa necessitatibus explicabo nisi
+                        sapiente, obcaecati reiciendis. Suscipit, perferendis tempora molestias blanditiis error
+                        eligendi veniam vero reprehenderit id incidunt quaerat, porro maxime possimus, eum eaque.</p>
+                </div>
+                <div class="col-md-6 p-3">
+                    <img src="images/diet2.jpg" class="wow bounceInRight img-fluid">
+                </div>
+            </div>
+
+            <hr class="w-50 m-auto main-hr">
+
+            <div class="row m-5 bg-transparent">
+                <div class="col-md-6 p-3">
+                    <img src="images/diet3.jpg" class="wow bounceInLeft img-fluid">
+                </div>
+                <div class="col-md-6 p-3 dite-text">
+                    <h3 class="text-primary diet-main ps-3">Dry Fruits</h3>
+                    <p class="text-white fw-semibold lh-lg text-capitalize ps-3">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Accusantium harum officia modi neque repellendus accusamus nulla fugiat
+                        perspiciatis ea porro delectus sed quos incidunt numquam ipsa necessitatibus explicabo nisi
+                        sapiente, obcaecati reiciendis. Suscipit, perferendis tempora molestias blanditiis error
+                        eligendi veniam vero reprehenderit id incidunt quaerat, porro maxime possimus, eum eaque.</p>
+                </div>
+            </div>
+
+            <hr class="w-50 m-auto main-hr">
+
+            <div class="row m-5 bg-transparent">
+                <div class="col-md-6 p-3 dite-text">
+                    <h3 class="text-primary diet-main ps-3 orange-main">Healthy Fruits</h3>
+                    <p class="text-white fw-semibold lh-lg text-capitalize ps-3">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Accusantium harum officia modi neque repellendus accusamus nulla fugiat
+                        perspiciatis ea porro delectus sed quos incidunt numquam ipsa necessitatibus explicabo nisi
+                        sapiente, obcaecati reiciendis. Suscipit, perferendis tempora molestias blanditiis error
+                        eligendi veniam vero reprehenderit id incidunt quaerat, porro maxime possimus, eum eaque.</p>
+                </div>
+                <div class="col-md-6 p-3">
+                    <img src="images/diet4.jpg" class="wow bounceInRight img-fluid">
+                </div>
+            </div>
+
+            <hr class="w-50 m-auto main-hr">
+
+            <div class="row m-5 bg-transparent">
+                <div class="col-md-6 p-3">
+                    <img src="images/diet5.jpg" class="wow bounceInLeft img-fluid">
+                </div>
+                <div class="col-md-6 p-3 dite-text">
+                    <h3 class="text-primary diet-main ps-3">Fresh Juices</h3>
+                    <p class="text-white fw-semibold lh-lg text-capitalize ps-3">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Accusantium harum officia modi neque repellendus accusamus nulla fugiat
+                        perspiciatis ea porro delectus sed quos incidunt numquam ipsa necessitatibus explicabo nisi
+                        sapiente, obcaecati reiciendis. Suscipit, perferendis tempora molestias blanditiis error
+                        eligendi veniam vero reprehenderit id incidunt quaerat, porro maxime possimus, eum eaque.</p>
+                </div>
+            </div>
+
+            <hr class="w-50 m-auto main-hr">
+
+            <div class="row m-5 bg-transparent">
+                <div class="col-md-6 p-3 dite-text">
+                    <h3 class="text-primary diet-main ps-3 orange-main">Some Proteins</h3>
+                    <p class="text-white fw-semibold lh-lg text-capitalize ps-3">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Accusantium harum officia modi neque repellendus accusamus nulla fugiat
+                        perspiciatis ea porro delectus sed quos incidunt numquam ipsa necessitatibus explicabo nisi
+                        sapiente, obcaecati reiciendis. Suscipit, perferendis tempora molestias blanditiis error
+                        eligendi veniam vero reprehenderit id incidunt quaerat, porro maxime possimus, eum eaque.</p>
+                </div>
+                <div class="col-md-6 p-3">
+                    <img src="images/diet6.jpg" class="wow bounceInRight img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="special-header text-center text-white special-header-contact">
+        <h1 class=""><span>C</span>ontac<span class="text-white under">t</span></h1>
+        <p class="fs-6 fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <section id="Contact" class="">
+        <div class="container">
+            <div class="row mb-3 w-100">
+                <div class="col-md-6 mx-auto">
+                    <form class="p-5 form wow fadeIn">
+                        <div class="card bg-light p-3">
+                            <input type="text" class="form-control mb-3 p-2" placeholder="User">
+                            <input type="Email" class="form-control mb-3 p-2" placeholder="Email">
+                            <textarea class="p-2 mb-3" placeholder="you can type here anything what goes on your mind"
+                                rows="5"></textarea>
+                            <button class="btn btn-outline-success  btn-green fw-bold">Send</button>
+                        </div>
+                    </form>
+                </div><!-- col-md-6 -->
+            </div>
+        </div><!-- container -->
+    </section>
+
+
+    <footer>
+        <div class="container py-5 text-center text-white">
+            <h5> &copy; Copyright <span>Mostafa Ebrahim</span> 2023 | All Right Reserved</h5>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="scrollButton" title="Go to top">Top</button>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
